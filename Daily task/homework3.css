@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+      border: 2px solid red;
+}
+
+.main{
+    border: 2px solid black;
+    
+}
+
+.nav{
+    width: 100%;
+    
+
+}
+.container{
+    display: flex;
+
+}
+
+.side{
+    height: 100%;
+    width: 30%;
+}
+
+.main2{
+    width: 70%;
+}
