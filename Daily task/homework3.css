@@ -3,49 +3,26 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: sans-serif;
+    border: solid black;
+
 }
 
 .main{
     position: relative;
-    height: 100vh;
+    height: 35px;
     width: 100%;
     display: grid;
-    border:solid black ;
+    background-color:yellow;
 }
 
-
-.main .sidebar{
-    padding-left: 30px;
+.main .nav{
     position: fixed;
+    margin-top: 35px;
     height: 100vh;
     width: 280px;
     background-color: red;
     border:solid black ;
-
-}
-
- .menu .menu2{
-    /* margin-top: 100%; */
-    padding: 20px;
     box-sizing: border-box;
-    background-color: yellow;
-    /* width: 280px; */
-    height: 70vh;
-    
-
 }
 
-.content  {
-
- 
-    flex-grow: 1;
-    
-}
-
-.content #aside1{
-    background-color: blue;
-}
-.content #aside2{
-    background-color:green;
-}
 
