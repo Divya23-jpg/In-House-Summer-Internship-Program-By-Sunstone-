@@ -3,7 +3,6 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: sans-serif;
-
 }
 
 .main{
@@ -12,9 +11,7 @@
     width: 100%;
     display: grid;
     border:solid black ;
-    /* background-color: bisque; */
-  }
-
+}
 
 .main .sidebar{
     padding-left: 30px;
