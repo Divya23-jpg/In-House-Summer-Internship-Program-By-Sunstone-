@@ -26,10 +26,11 @@
 
 }
  .menu .menu2{
-    margin-top: 100%;
+    /* margin-top: 100%; */
+    padding: 20px;
     box-sizing: border-box;
     background-color: yellow;
-    width: 280px;
+    /* width: 280px; */
     height: 70vh;
     
 
