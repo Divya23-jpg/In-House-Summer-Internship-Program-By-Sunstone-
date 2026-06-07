@@ -12,7 +12,7 @@
     width: 100%;
     display: grid;
     border:solid black ;
-    background-color: bisque;
+    /* background-color: bisque; */
   }
 
 
@@ -36,10 +36,17 @@
 
 }
 
-.content {
-    border:solid rebeccapurple ;
-    /* background-color: aqua; */
+.content  {
+
+ 
     flex-grow: 1;
     
+}
+
+.content #aside1{
+    background-color: blue;
+}
+.content #aside2{
+    background-color:green;
 }
 
