@@ -1,9 +1,26 @@
-#flex{
+#flex1{
     border: 2px solid black;
     width: 200px;
     height: 200px;
-    background-color: cadetblue;
+    background-color:red;
     padding: 16px;
+    /* border-radius: 120px; */
+}
+#flex2{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    background-color: orangered;
+    padding: 16px;
+    /* border-radius: 120px; */
+}
+#flex3{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    padding: 16px;
+    border-radius: 120px;
 }
 
 .direction{
@@ -14,4 +31,5 @@
     padding: 2px;
     gap: 15px;
     height: 100vh;
+
 }
