@@ -11,6 +11,8 @@
     display: flex;
     align-items: center;
     padding:10px 20px;
+
+     border: 0.5px solid #6b6b6b;
 }
 
 .header-left{
@@ -73,8 +75,8 @@
 }
 
 .following .find{
-     margin-top: 9px;
-     height: 35px;
+    margin-top: 9px;
+    height: 35px;
    
 }
 .main{
@@ -102,6 +104,9 @@
     font-family: sans-serif;
     font-size: 16px;
 } 
+
+
+
 .following li{
     margin-top: 10px;
     margin-bottom: 8px;
@@ -142,6 +147,9 @@
    
 
 }
+.main .menu1{
+    border-right: 0.5px solid grey;
+}
 
 .main2{
 
@@ -154,11 +162,12 @@
 .content{
     background: color #f9f9f9;
     height:30px;
-    /* border: solid black; */
+   
 }
+
 .content2 .nav2{
     position: absolute;
-    left:1px;
+    margin-left: 5%;
     
 
 }
@@ -181,8 +190,39 @@
 }
 .content2{
   
-    /* background-color: purple; */
     background: color #f9f9f9;
     height:100%;
 
 }
+.box{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 100vh;
+    width: 115vh;
+    margin-top: 5%;
+    margin-left: 5%;
+ 
+    
+}
+
+.box1{
+ background: color #f9f9f9;
+    border: 2px solid black;
+    height: 39vh;
+}
+.box2{
+    border: 2px solid black;
+    height: 39vh;
+    background-color: orangered;
+
+}
+
+/* .content2 .box1{
+    background-color: red;
+    position: absolute;
+    height: 30%;
+    width: 100vh;
+    margin: 10px;
+} */

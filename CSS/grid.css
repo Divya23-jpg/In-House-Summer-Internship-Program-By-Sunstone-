@@ -4,7 +4,7 @@
     padding: 0;
     background-color: bisque;
 }
-.container{
+.container .box{
     display: grid;
     grid-template-columns: 100px 200px ;
     grid-template-rows: 200px 200px;
