@@ -1,0 +1,17 @@
+#flex{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    background-color: cadetblue;
+    padding: 16px;
+}
+
+.direction{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center; 
+    padding: 2px;
+    gap: 15px;
+    height: 100vh;
+}
