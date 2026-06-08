@@ -7,30 +7,47 @@
 
 }
 .top-nav{
-    border: solid red;
+
     display: flex;
     align-items: center;
     padding:10px 20px;
- 
- 
-
 }
 
 .header-left{
     display: flex;
-    align-items: center;
-    height: 30px;
+   
 }
+
 .logo h2{
+    width: auto;
     font-family: serif;
-    font-size: 30px;
+    font-size: 35px;
+    margin-bottom: 5px;
     padding-right: 10px;
     margin-left: 20px;
+    height: 25px;
+    vertical-align: middle;
+
   
+}
+
+.logo svg{
+    vertical-align: middle;
+    color: #6B6B6B;
+    height: 35px;
+    position: absolute;
+    left:0px;
+    /* border: solid red; */
+    right: 2px;
+    margin-left: 10px;
+  
+
+    
+
 }
 .search-bar{
     line-height:20px;
-    margin-left: 10px;
+    margin-left: 20%;
     outline:none;
     font-size: 14px;
     width: 200px;
@@ -41,7 +58,25 @@
 
     
 }
+.home svg{
+   position: absolute;
+   margin-left: 15px;
+   margin-top: 3px;
+ 
+}
+.following svg{
+   
+   position: absolute;
+   margin-left: 15px;
+   margin-top: 3px;
+ 
+}
 
+.following .find{
+     margin-top: 9px;
+     height: 35px;
+   
+}
 .main{
     position: fixed;
     height: 100vh;
@@ -49,7 +84,7 @@
     display: grid;
     box-sizing: border-box;
     background: color #f9f9f9;
- 
+
 }
 .menu1 li{
     margin-top: 10px;
@@ -81,12 +116,18 @@
     padding: 8px 10px;
     font-family: sans-serif;
     font-size: 16px;
+ 
 
 }
 
 #suggest{
-
+ 
+  
+    margin-left: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 3px;
     font-size: 14px;
+    text-decoration: underline;
 }
 .main .sidebar{
     position: fixed;
@@ -111,13 +152,37 @@
 }
 
 .content{
-    background-color: aqua;
+    background: color #f9f9f9;
     height:30px;
-    border: solid black;
+    /* border: solid black; */
+}
+.content2 .nav2{
+    position: absolute;
+    left:1px;
+    
+
+}
+.content2 .a1{
+  
+    font-size: 14px;
+    color: #242424;
+    text-decoration: none;
+    
+  
+ 
+}
+.content2 .a2{
+  
+    font-size: 14px;
+    color: #242424;
+    text-decoration: none;
+  
+ 
 }
 .content2{
   
-    background-color: purple;
+    /* background-color: purple; */
+    background: color #f9f9f9;
     height:100%;
 
 }
