@@ -213,7 +213,7 @@
     margin-left:3%;
 }
 
-.box svg{
+.box .note{
     position: absolute;
     margin-top: 2px;
 }
@@ -230,9 +230,39 @@
     margin-top: 15%;
     height: 7%;
 }
-.box1 .ghgt{
+.box2 .footer2{
+    display: flex;
+    background-color: aqua;
+    margin-top: 16%;
+    height: 7%;
+}
+.box .hand{
+    margin-left: 2px;
 
+}
+.box .comment{
+    margin-left: 5%;
 
+}
+.box .reshare{
+    position: absolute;
+    margin-left:12%;
+    color: #6b6b6b;
+    margin-top: 1px;
+
+}
+.box span{
+    margin-top: 1px;
+    font-size: 14px;
+    position: absolute;
+    color: #6b6b6b;
+
+}
+.box .h5{
+    position: absolute;
+    margin-left: 20px;
+    color: #6b6b6b;
+    margin-top: 1px;
 }
 .box2{
     border: 2px solid black;
