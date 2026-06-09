@@ -19,7 +19,28 @@
     display: flex;
    
 }
+.getapp{
+    display: flex;
+    margin-left: 800px;
+    margin-top: 6px;
+    border: solid black;
+    /* padding: 2px; */
+    padding-left: 5px;
+    padding-right:5px ;
+    border-radius: 20px;
+    background-color: black;
+}
+.getapp_logo{
+    margin-top: 2px;
+    fill: white;
 
+}
+.getapp-p{
+    margin-top: 4px;
+    color: white;
+    
+
+}
 .logo h2{
     width: auto;
     font-family: serif;
