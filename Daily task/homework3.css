@@ -171,9 +171,12 @@
     
 
 }
-/* .nav2 .hr{
-    background-color: red;
-} */
+.hr{
+    
+    height: 2px;
+    margin-bottom: 2px;
+
+}
 .content2 .a1{
   
     font-size: 14px;
@@ -186,8 +189,12 @@
     font-size: 14px;
     color: #242424;
     text-decoration: none;
-  
+    margin-left: 5px;
  
+}
+
+.hr1{
+    width: 40%;
 }
 .content2{
   
