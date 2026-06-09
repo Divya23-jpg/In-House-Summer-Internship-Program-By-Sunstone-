@@ -157,17 +157,35 @@
     left: 17.5%;
     width: 82.5%;
     height: 100vh;
+
 }
 
-.content{
-    background: color #f9f9f9;
+.content1{
+
     height:30px;
+    border: solid black;
    
 }
 
+.content1 .subscribe{
+    font-size: 12px;
+    padding-top: 1px;
+    margin-left: 30%;
+    padding-left: 20px;
+
+}
+.content1 .member{
+    padding-top: 1px;
+    margin-left: 10px;
+    color: black;
+
+}
 .content2 .nav2{
     position: absolute;
+    margin-top: 2%;
     margin-left: 5%;
+ 
+   
     
 
 }
@@ -219,11 +237,7 @@
     color: #6b6b6b;
     margin-left:3%;
 }
-/* .h1{
-    background-color: red;
-    margin-top: 5%;
-   
-} */
+
 
 .box .note{
     position: absolute;
@@ -261,11 +275,11 @@
     position: relative;
 }
 .box .hand{
-    margin-left: 2px;
+    margin-left:4px;
 
 }
 .box .comment{
-    margin-left: 5%;
+    margin-left: 4%;
 
 }
 .box .reshare{
@@ -293,7 +307,7 @@
 }
 .box .h5{
     position: absolute;
-    margin-left: 20px;
+    margin-left:4.5%;
     color: #6b6b6b;
     margin-top: 1px;
 }
@@ -309,11 +323,3 @@
     
 
 }
-
-/* .content2 .box1{
-    background-color: red;
-    position: absolute;
-    height: 30%;
-    width: 100vh;
-    margin: 10px;
-} */
