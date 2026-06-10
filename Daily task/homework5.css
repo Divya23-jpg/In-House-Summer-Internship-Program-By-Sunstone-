@@ -23,9 +23,8 @@
  
     height: 40px;
     width: 100%;
-
-    background: linear-gradient(135deg, #00c4cc 15%,#1a62ff, #7d2ae8);
-    padding: 7px;
+    background: linear-gradient(135deg, #00c4cc 15%,#1a62ff, #7d2ae8);;
+    /* padding: 5px; */
 }
 
 .file{
@@ -181,22 +180,20 @@
     margin-top: 10px;
 }
 .generate{
-    position: absolute;
+     /* position: absolute; */
     border: solid black;
-    width: 10%;
-    height: 5.5%;
+    width: 50%;
+    height: 5%;
     margin-top: 15px;
     border-radius: 10px;
 }
 .search2{
     position: absolute;
-    margin-left: 11.5%; 
-    margin-top: 15px;
-    width:9.5%;
-    height: 5.5%;
-    border: solid black;
-    background-color:#4b08b6;
-    border-radius: 11px;
+    margin-left: 13%; 
+    width: 8%;
+    height: 5%;
+    border: solid blue;
+    border-radius: 10px;
 }
 .center{
     border: solid black;
