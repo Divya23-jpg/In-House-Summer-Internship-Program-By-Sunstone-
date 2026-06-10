@@ -164,6 +164,38 @@
     
     
 }
+
+.search{
+    background-color: white;
+    border: solid plum;
+    height: 6%;
+    width: 95%;
+    margin-top: 10px;
+    border-radius: 9px;
+   
+}
+
+.plus{
+    position: absolute;
+    margin-left: 3px;
+    margin-top: 10px;
+}
+.generate{
+     /* position: absolute; */
+    border: solid black;
+    width: 50%;
+    height: 5%;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.search2{
+    position: absolute;
+    margin-left: 13%; 
+    width: 8%;
+    height: 5%;
+    border: solid blue;
+    border-radius: 10px;
+}
 .center{
     border: solid black;
     height: 100vh;
