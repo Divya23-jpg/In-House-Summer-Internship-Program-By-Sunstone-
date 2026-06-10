@@ -12,23 +12,117 @@
 
 
 .header{
-    /* background-color: blueviolet; */
+ 
     height: 40px;
     width: 100%;
+    /* background:linear-gradient(to right ,rgb(91,202,215),) */
+    /* background: linear-gradient(135deg, #65ecf1, #8b3dff); */
+    background: linear-gradient(135deg, #00c4cc,#1a62ff, #7d2ae8);;
     
 }
 
+.file{
+    /* margin-top: 0.5%; */
+    position: absolute;
+    font-size: 18px;
+    margin-left: 3%;
+    margin-top: 8px;
+}
+.file-logo{
+    position: absolute;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+.resize{
+    position: absolute;
+    font-size: 18px;
+    margin-left: 7%;
+    margin-top: 0.5%;
+}
+
+.edit{
+    position: absolute;
+    font-size: 18px;
+    margin-left: 14%;
+    margin-top: 8px;
+}
+.edit-logo{
+    position:absolute;
+   margin-left: 12%;
+    
+    margin-top: 5px;
+
+}
+.save{
+    position: absolute;
+    margin-top: 6px;
+    margin-left: 20%;
+}
+
+
+.trial{
+    position: absolute;
+    margin-left: 64%;
+    margin-top: 4px;
+    border: solid black;
+    padding: 3px  15px;
+    padding-left: 17px;
+    border-radius: 8px;
+    
+}
+
+.trial-logo{
+    position: absolute;
+    margin-left: 64.3%;
+    margin-top: 9px;
+}
 .sidetool{
     background-color: yellow;
-
     height: 100vh;
     width: 5%;
 }
 
+.profile{
+    position: absolute;
+    margin-left: 77%;
+    width: 3%;
+    margin-top: 2px;
+}
+
+.bar{
+    position: absolute;
+    margin-left: 80%;
+     border: solid black;
+    margin-top: 2px;
+    border-radius: 8px;
+    padding: 0px 2px;
+
+}
+.comment{
+    position: absolute;
+    margin-left: 83%;
+     border: solid black;
+    margin-top: 2px;
+    border-radius: 8px;
+    padding: 0px 2px;
+
+}
+.share{
+    position: absolute;
+    margin-left: 86%;
+     border: solid black;
+    margin-top: 2px;
+    border-radius: 8px;
+    padding: 5px 14px;
+    color: black;
+    background-color: white;
+
+}
+
+
 .sidebar{
 
     background-color: red;
-   
     width:30%;
     height: 100vh;
     
@@ -54,6 +148,5 @@
  width: 97%;
  margin-top: 8%;
  margin-left: 2%;
-
 
 }
