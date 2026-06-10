@@ -180,20 +180,25 @@
     margin-top: 10px;
 }
 .generate{
-     /* position: absolute; */
-    border: solid black;
-    width: 50%;
-    height: 5%;
+    border: solid plum;
+    position: absolute;
+    font-weight: bold;
+    width: 10%;
+    height: 5.5%;
     margin-top: 15px;
     border-radius: 10px;
 }
+
 .search2{
     position: absolute;
-    margin-left: 13%; 
-    width: 8%;
-    height: 5%;
-    border: solid blue;
+    margin-left: 11%; 
+    width: 10%;
+    height: 5.5%;
+     font-weight: bold;
+
     border-radius: 10px;
+    margin-top: 15px;
+    background: linear-gradient(#1a62ff, #7d2ae8);;
 }
 .center{
     border: solid black;
