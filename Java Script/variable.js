@@ -13,11 +13,8 @@ let a='ronak';
 
 
 // const cannot be reclare the 
-
 const b=10;
 const b=9;
 console.log(b);
 
 
-
-// 
