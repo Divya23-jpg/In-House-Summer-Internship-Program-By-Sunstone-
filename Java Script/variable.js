@@ -37,7 +37,14 @@
 // }
 
 let n = 5; // height of triangle
-for (let i = 1; i <= n; i++) {
+for (let i = 1; i <= 2*n-1; i++) {
+  let row = "";
+  for (let j = 1; j <= i; j++) {
+    row += j + " ";
+  }
+  console.log(row);
+}
+for (let i = 2*n-1; i >=n; i--) {
   let row = "";
   for (let j = 1; j <= i; j++) {
     row += j + " ";
