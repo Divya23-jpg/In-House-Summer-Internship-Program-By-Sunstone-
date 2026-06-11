@@ -28,7 +28,7 @@
 }
 
 .file{
-    /* margin-top: 0.5%; */
+
     position: absolute;
     font-size: 18px;
     margin-left: 3%;
@@ -138,7 +138,7 @@
 
 
 .small_sidebar{
-    border: 1px solid black; 
+    /* border: 1px solid black;  */
     height: 92%;
     width :5% ; 
     background-color:#f1f3f4;
@@ -157,7 +157,7 @@
 
 .sidebar{
 
-    background-color: red;
+    /* background-color: red; */
     width:30%;
     height: 100vh;
     
@@ -184,7 +184,7 @@
     position: absolute;
     font-weight: bold;
     width: 10%;
-    height: 5.5%;
+    height: 5%;
     margin-top: 15px;
     border-radius: 10px;
 }
@@ -199,6 +199,82 @@
     border-radius: 10px;
     margin-top: 15px;
     background: linear-gradient(#1a62ff, #7d2ae8);;
+}
+
+.img1{
+    position: absolute;
+
+    margin-top: 7%;
+    height: 13%;
+    width: 10%;
+}
+.img2{
+    position: absolute;
+
+    margin-top: 7%;
+    height: 13%;
+    width: 10%;
+    margin-left: 10.7%;
+}
+.img3{
+    position: absolute;
+
+    margin-top: 16%;
+    height: 13%;
+    width: 10%;
+}
+
+.img4{
+    position: absolute;
+
+    margin-top: 16%;
+    height: 13%;
+    width: 10%;
+    margin-left: 10.7%;
+}
+.img5{
+    position: absolute;
+
+    margin-top: 23%;
+    height: 13%;
+    width: 10%;
+}
+.img6{
+    position: absolute;
+    margin-top: 23%;
+    height: 13%;
+    width: 10%;
+    margin-left: 10.7%;
+}
+.img7{
+    position: absolute;
+   
+    margin-top: 30%;
+    height: 13%;
+    width: 10%;
+}
+.img8{
+    position: absolute;
+ 
+    margin-top: 30%;
+    height: 13%;
+    width: 10%;
+    margin-left: 10.7%;
+}
+.img9{
+    position: absolute;
+
+    margin-top: 37%;
+    height: 13%;
+    width: 10%;
+}
+.img10{
+    position: absolute;
+
+    margin-top: 37%;
+    height: 13%;
+    width: 10%;
+    margin-left: 10.7%;
 }
 .center{
     border: solid black;
