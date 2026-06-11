@@ -20,9 +20,16 @@
 
 
 
-let fruit=['apple','mango']
-for(let key in fruit){
-    console.log(fruit[key]);
+// let fruit=['apple','mango']
+// for(let key in fruit){
+//     console.log(fruit[key]);
+// }
+
+
+
+
+let n=5;
+for(let i=1;i<=n;i++){
+    
+   
 }
-
-
