@@ -36,6 +36,7 @@
 
 // ! High order function
 
+// * 1.map()
 const numbers=[1,2,3,4,5];
 const t=function(num){
     return num*3;
@@ -46,4 +47,35 @@ const triplet=numbers.map(function(num){
 const tripletdemo=numbers.map(t);
 console.log(tripletdemo);
 
-console.log(triplet);
+
+
+
+// * 1.filter()
+
+const even=numbers.filter(function (num){
+    return num%2===0;
+})
+console.log(even);
+
+
+// * 1.reduce()
+const total=numbers.reduce(function (sum,num){
+    return sum+num;
+},0);
+
+
+// This 0 is initial value
+console.log(total);
+
+
+
+// Arrrow function
+//! 1 Function Example
+const minus= (a,b) =>{
+    return a-b;
+}
+console.log(minus(5,4));
+
+//! 2 Function Example
+const thrice=x => x*x*x;
+console.log(thrice(2))
