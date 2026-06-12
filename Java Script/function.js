@@ -27,7 +27,7 @@
 // function Expression
 
 
-// const hy=function greet(){
+// const hy=function (){
 //     console.log("Helooo")
 // }
 // console.log(hy)
@@ -79,3 +79,18 @@ console.log(minus(5,4));
 //! 2 Function Example
 const thrice=x => x*x*x;
 console.log(thrice(2))
+
+
+// Arrow function with parameters
+
+const double=numbers.map(num=> num*2);
+console.log(double);
+
+// ! Hoisting 
+    // Default behavior 
+    // *    var undefines
+    // *    let,const Reference error
+
+
+
+// ! Closures
