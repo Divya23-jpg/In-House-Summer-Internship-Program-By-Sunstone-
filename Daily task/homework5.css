@@ -167,7 +167,7 @@
 }
 
 .sidebar{
-    width:30%;
+    width:23%;
     height: 100%;
  
 }
@@ -175,13 +175,13 @@
     background-color: white;
     border: solid plum;
     height: 6%;
-    width: 72%;
+    width: 89%;
     margin-top: 10px;
     border-radius: 9px;
    
 }
 
-.plus{
+.plus-small{
     position: absolute;
     margin-left: 3px;
     margin-top: 10px;
@@ -340,13 +340,25 @@
     0% 38%    /* Upper left */
   );
 }
+
+
+.select-box{
+    position: absolute;
+    height: 70px;
+    width: 30px;
+    border: solid black;
+    
+}
 .bottmnav{
+/* position: absolute; */
   height: 35px;
   width: 100%;
   border:2px solid rgb(230, 225, 225);
   display:flex;
   background-color:#ffffff;
   box-shadow: #d1cccc 1px 2px 5px ;
+
+
 }
 /* Container to hold all shapes in a row with some spacing */
 .shape-container {
