@@ -43,7 +43,7 @@ const t=function(num){
 const triplet=numbers.map(function(num){
     return num*3;
 })
-const trpletdemo=numbers.map(t);
+const tripletdemo=numbers.map(t);
 console.log(tripletdemo);
 
 console.log(triplet);
