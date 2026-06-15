@@ -147,7 +147,8 @@ console.log('\n');
 
 console.log('\n');
 
-    const sum_demo=array.reduce((sum,x)=> sum+x,0);
+    const sum_demo=array.reduce((sum,x)=> sum+x,50); 
+    // 50 is  a default value means sum=50 initial value
     console.log(array);
     console.log(sum_demo);
 
@@ -156,3 +157,57 @@ console.log('\n');
     const sum_demo2=array.reduce((sum,x)=> sum+x);
     console.log(array);
     console.log(sum_demo2);
+
+
+
+// ! find
+    // jaise  he condition true hue than return 
+console.log('\n');
+console.log("Find function")
+    const f= array.find(function(x){
+        return x==3;
+    });
+    console.log(array)
+    console.log(f)
+
+console.log('\n');
+    const f_demo=array.find(x=> x==3);
+
+    console.log(array)
+    console.log(f_demo)
+
+
+
+// ! some
+    // batata hai ki condition elements satisfy kr rha h ya nhi
+console.log('\n');
+console.log('Some function');
+    const s=array.some(function(x){
+        return x>3;
+    });
+
+    console.log(array)
+    console.log(s)
+
+console.log('\n');
+    const s_demo=array.some(x=> x>3);
+    console.log(array)
+    console.log(s_demo)
+
+
+// ! every 
+    // batata hai ki sare  elements condition  satisfy kr rha h ya nhi
+
+console.log('\n');
+console.log('EVERY function');
+    const e=array.every(function(x){
+        return x>5;
+    });
+
+    console.log(array)
+    console.log(e)
+
+console.log('\n');
+    const e_demo=array.every(x=> x>5);
+    console.log(array)
+    console.log(e_demo)
