@@ -157,3 +157,134 @@ const user_action=[
 
 const loginCount = user_action.filter(item => item.action === "login").length;
 console.log("Number of logins:", loginCount);
+
+
+// ! 11. GitHub Stars
+    //Find the total number of stars.   
+github=[  
+{ repo: "A", stars: 100 }, 
+{ repo: "B", stars: 200 } ];
+
+const total1=github.map(emp=>emp.stars);
+const cout=total1.reduce((sum,item)=>sum+item,0);
+console.log(cout);
+
+// ! 12. Product Prices 
+    //  Extract all prices.  
+    //  Find the highest price. 
+product_list=[ 
+{ name: "Laptop", price: 50000 }, 
+{ name: "Phone", price: 20000 }, 
+{ name: "Tablet", price: 15000 } ];
+
+const tt=product_list.map(emp=>emp.price)
+const oo=tt.reduce((sum,item)=>sum+item,0);
+console.log(oo);
+hp=Math.max(...tt)
+console.log(hp)
+
+// ! 13. Even Numbers
+    //   Keep only even numbers.  
+    //   Return their squares.  
+
+Even_Numbers =[1, 2, 3, 4, 5, 6];
+
+
+const en=Even_Numbers.map(emp=>emp.Even_Numbers)
+//   Keep only even numbers.  
+for(i of Even_Numbers){
+    if(i%2==0){
+        console.log('only even',i);
+    }
+} 
+//  Return their squares.  
+for(i of Even_Numbers){
+    if(i%2==0){
+        console.log('their squares',i*i);
+    }
+} 
+
+// ! 14. Student Marks
+    // Keep marks greater than 50.  
+    //  Find their average. 
+    
+Student_Marks=[45, 80, 60, 90, 30];
+const s1=Student_Marks.filter(gg=>gg> 50);
+console.log(s1);
+const avg2=Student_Marks.map(item=>item);
+const total7=avg2.reduce((sum,item)=>sum+item,0);
+const length=avg2.length
+console.log('Avg= ',total7/length)
+
+// ! 15. Shopping Cart
+    // Calculate total cart value. 
+Shopping_Cart =[  
+{ item: "Book", price: 200 }, 
+{ item: "Pen", price: 20 }, 
+{ item: "Bag", price: 500 } ];
+
+const ff=Shopping_Cart.map(item=>item.price);
+const t5=ff.reduce((sum,item)=>sum+item,0)
+console.log('total= ',t5);
+
+// ! 16. Names List
+    //  Convert all names to uppercase.  
+Names_List= ["john", "emma", "alex"];
+const toupp=Names_List.map(name=>name.toUpperCase());
+console.log(toupp);
+
+
+// ! 17. Numbers Sum 
+    // Find the sum of all numbers using reduce().
+Numbers_Sum =[10, 20, 30, 40];
+const t6=Numbers_Sum.map(item=>item);
+const ans=t6.reduce((sum,item)=>sum+item,0) ;
+console.log(ans);
+
+
+// ! 18. Adult Users
+    // Keep users whose age is 18 or above.  
+    //  Return their names. 
+Adult =[ 
+{ name: "John", age: 25 }, 
+{ name: "Emma", age: 16 }, 
+{ name: "Alex", age: 20 } ];
+
+const aaa= Adult.filter(item=>item.age >18);
+console.log(aaa);
+
+
+// ! 19. Product Discount
+    // Apply a 10% discount to every product.  
+    // Return the updated prices. 
+const products = [ 
+  { name: "Laptop", price: 50000 }, 
+  { name: "Phone", price: 20000 } 
+];
+const discountedProducts = products.map(product => {
+  return {
+    name: product.name,
+    price: product.price * 0.90 
+  };
+});
+console.log(discountedProducts);
+const updatedPricesOnly = discountedProducts.map(p => p.price);
+console.log(updatedPricesOnly);
+
+
+// ! 20. Exam Results
+    // Keep students with marks ≥ 50.  
+    //  Return their names. 
+Exam = [  
+{ name: "John", marks: 80 }, 
+{ name: "Emma", marks: 40 }, 
+{ name: "Alex", marks: 70 } ];
+
+
+const examm=Exam.map(item=>{
+    return {
+        name:item.name,
+        marks:item.marks >=50
+    }
+});
+console.log(examm)
