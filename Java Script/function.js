@@ -112,21 +112,41 @@ counter();
 
 
 
+
 function create_bank(initial_balance){
+    // Parent b
     let b=initial_balance;
+    console.log("Initial amount::",b);
     return {
          deposit(amount){
+            // child 
             b+=amount;
-            console.log(b);
+            console.log("Deposit amount::",amount);
+            console.log("Total amount after deposit",b);
         },
-
+    
         withdraw (amount){
             b-=amount;
-            console.log(b);
-        }
+            console.log("Withdraw amount",amount);
+            console.log("Total amount after withdraw",b);
+        },
+
+      
     };
 }
 
-const bank_account=create_bank(1000);
-bank_account.deposit(500);
-bank_account.withdraw(200);
+// const bank_account=create_bank(1000);
+// bank_account.deposit(500);
+// bank_account.withdraw(200);
+
+
+// ! Anomous function
+function multiplier(factor){
+    // anomous function because function without its name
+    return function(number){
+        return factor*number;
+    }
+}
+
+const mul=multiplier(3);
+console.log(mul(10));

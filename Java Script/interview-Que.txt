@@ -1,0 +1,6 @@
+1.what is Higher Order function?
+2.What is Hoisting?
+
+closure
+why closure used?
+lambda function
