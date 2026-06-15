@@ -43,3 +43,116 @@ console.log(fruits.length);
     console.log(fruits.includes("Grapes"));
 
 
+// ! indexof()
+    // show index of an element .
+    //  If element is not present so gives -1.
+    console.log(fruits.indexOf("Banana"));
+    console.log(fruits.indexOf("Watermelon"));
+
+
+// ! join
+    // Join elememt with any num,special cgaracter or anything
+    console.log(fruits.join("@@"));
+
+
+// ! Slice
+    // Element batayega us range k exclude last value
+    console.log(fruits.slice(1,3))
+
+
+// ! Splice
+    // Element batayega us range k include last  value
+    // console.log(fruits.splice(1,3))
+
+
+
+
+// ! looping in Array
+
+    // for loop
+    console.log("For loop:")
+    for(let i =0;i<fruits.length;i++){
+        
+        console.log(fruits[i]);
+    }
+
+console.log('\n');
+
+    // for of loop
+    console.log("For of loop:")
+    for(let f of fruits){
+        console.log(f);
+    } 
+console.log('\n');
+
+    // for each 
+    console.log("For each loop:")
+    fruits.forEach(function(i){
+        console.log(i);
+    })
+
+
+
+
+// ! Advance method in array
+
+// ! map
+
+    // sare element par condition apply krta h
+    console.log("MAP function")
+// ? using function
+    array=[1,2,3,4]
+    const double=array.map(function(x){
+        return x*2;
+    });
+    console.log(array);
+    console.log(double);
+
+
+// ? without function
+    console.log('\n');
+    const double_demo=array.map(x=>x*2);
+    console.log(array);
+    console.log(double_demo);
+
+console.log('\n');
+
+// ! filter
+    // tumhari consition karega jo bhi element condition me pass  hoga voh new array me jayega
+      console.log("FILTER  function")
+    const even=array.filter(function(x){
+        return x%2==0;
+    });
+     console.log(array);
+    console.log(even);
+ 
+console.log('\n');
+    
+    const even_demo=array.filter(x=> x%2==0);
+    console.log(array);
+    console.log(even_demo);
+
+
+console.log('\n');
+
+// ! reduce
+    // sare element  ko ek variable me convert krdega
+
+    console.log("REDUCE function")
+    const sum=array.reduce(function(sum,x){
+        return sum+x;
+    },0);
+    console.log(array);
+    console.log(sum);
+
+console.log('\n');
+
+    const sum_demo=array.reduce((sum,x)=> sum+x,0);
+    console.log(array);
+    console.log(sum_demo);
+
+
+console.log('\n');
+    const sum_demo2=array.reduce((sum,x)=> sum+x);
+    console.log(array);
+    console.log(sum_demo2);
