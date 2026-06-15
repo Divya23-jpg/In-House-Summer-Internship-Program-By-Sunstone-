@@ -27,9 +27,9 @@
 // function Expression
 
 
-// const hy=function (){
-//     console.log("Helooo")
-// }
+const hy=function (){
+    console.log("Helooo")
+}
 // console.log(hy)
 
 
@@ -44,18 +44,18 @@ const t=function(num){
 const triplet=numbers.map(function(num){
     return num*3;
 })
-const tripletdemo=numbers.map(t);
-console.log(tripletdemo);
+// const tripletdemo=numbers.map(t);
+// console.log(tripletdemo);
 
 
 
 
-// * 1.filter()
+// // * 1.filter()
 
 const even=numbers.filter(function (num){
     return num%2===0;
 })
-console.log(even);
+// console.log(even);
 
 
 // * 1.reduce()
@@ -65,7 +65,7 @@ const total=numbers.reduce(function (sum,num){
 
 
 // This 0 is initial value
-console.log(total);
+// console.log(total);
 
 
 
@@ -74,17 +74,17 @@ console.log(total);
 const minus= (a,b) =>{
     return a-b;
 }
-console.log(minus(5,4));
+// console.log(minus(5,4));
 
 //! 2 Function Example
 const thrice=x => x*x*x;
-console.log(thrice(2))
+// console.log(thrice(2))
 
 
 // Arrow function with parameters
 
 const double=numbers.map(num=> num*2);
-console.log(double);
+// console.log(double);
 
 // ! Hoisting 
     // Default behavior 
@@ -94,3 +94,17 @@ console.log(double);
 
 
 // ! Closures
+
+function outer(){
+    let count=0;
+    // Inner function will not work if we dont call outer function
+    function inner(){
+    count++;
+    console.log(count);
+}
+return inner;
+}
+
+const counter=outer();
+counter();
+counter();
