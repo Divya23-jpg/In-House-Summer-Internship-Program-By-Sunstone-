@@ -92,6 +92,7 @@ const double=numbers.map(num=> num*2);
     // *    let,const Reference error
 
 
+    
 
 // ! Closures
 
