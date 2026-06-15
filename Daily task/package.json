@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "tailwindcss": "^4.3.0"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
   }
 }
