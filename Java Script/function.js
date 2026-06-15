@@ -106,5 +106,27 @@ return inner;
 }
 
 const counter=outer();
+// * const c=inner() Not work
 counter();
 counter();
+
+
+
+function create_bank(initial_balance){
+    let b=initial_balance;
+    return {
+         deposit(amount){
+            b+=amount;
+            console.log(b);
+        },
+
+        withdraw (amount){
+            b-=amount;
+            console.log(b);
+        }
+    };
+}
+
+const bank_account=create_bank(1000);
+bank_account.deposit(500);
+bank_account.withdraw(200);
