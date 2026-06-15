@@ -4,6 +4,18 @@ console.log("Hospital Management System");
 
 const prompt = require("prompt-sync")();
 
+function want(){
+    console.log("--------------------MENU----------------------")
+}
+
+
+
+
+
+
+
+
+
 function details() {
     console.log("Enter All Important details for Scheduling Tests");
 
@@ -29,5 +41,6 @@ function details() {
 
     return patient;
 }
+
 
 const detail = details();
