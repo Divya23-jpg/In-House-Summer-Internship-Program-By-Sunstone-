@@ -107,7 +107,7 @@ console.log(student.name)
 console.log(student.age)
 
 
-// ! Spread Operator
+// ! Spread Operator [...]
 // !Restuck / copy 1 array to another array
 let arr1=[1,2,3,4,5];
 let arr2=[...arr1];
@@ -140,7 +140,7 @@ console.log(student2)
 let obj1={a1:1};
 let obj2={b2:2};
 
-let merged={...obj1,...obj2}
+let merged={...obj1 , ...obj2}
 
 console.log("Object 1",obj1)
 console.log("Objeect",obj2)
@@ -167,6 +167,7 @@ console.log("Merged [object 1 and object 2]:",merged)
 let copy=Object.assign({},student);
 console.log(copy);
 
+// ! Shalow copy
 let copy1={...student};
 console.log(copy1);
 
@@ -176,6 +177,7 @@ console.log(copy1);
 console.log("name is available in student or not","name" in student)
 
 // ! hasOwnProperty()
+    // Return True if name key is available , if not then false
 console.log(student.hasOwnProperty("name"));
 
 // ! freeze
@@ -196,6 +198,6 @@ student.age=23
 console.log(student)
 
 // ! structuredClone()
-// use for deep copy
+// use for deep copy and it is a independent copy and refernce(memory) will be different  always while shallow copy have same reference 
 const sdf=structuredClone(student);
 console.log(sdf)
