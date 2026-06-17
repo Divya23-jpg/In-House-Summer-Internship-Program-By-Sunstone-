@@ -53,14 +53,14 @@ const word=["hello","world","javascript"]
 
 // ? using reduce() only
 const total=word.reduce((sum,word)=>sum+word.length,0)
-console.log(total,"\n")
+console.log("Total Words:",total,"\n")
 
 
 // ! 6. Square of Even number
 console.log("6. Square of Even number");
 const nums=[1,2,3,4,5,6,7,8];
 const even_square=nums.filter(nums=> nums%2==0).map(nums=>nums*nums);
-console.log(even_square,"\n")
+console.log("Square of even number:",even_square,"\n")
 
 
 // ! 7.Total salary of Employee
@@ -72,7 +72,7 @@ const emp=[
 ]
 
 const total_salary=emp.reduce((sum,ts)=> sum+ts.salary,0)
-console.log(total_salary,"\n")
+console.log("Total salary",total_salary,"\n")
 
 
 // !  8.Names of Passed student
@@ -86,5 +86,19 @@ const stu=[
     {name:"D",marks:25}
 ]
 
-const passed_stu= stu.filter(stu=>stu.marks>=40).map(stu=>stu.name);
-console.log(passed_stu,"\n")
+const passed_stu= stu.filter(stu=>stu.marks>pass).map(stu=>stu.name);
+console.log("Passed student name:",passed_stu,"\n")
+
+
+// ! 9.Average Students
+console.log("9.Average Students")
+const marks=[80,90,70,60];
+const average=marks.reduce((sum,mark)=> sum+mark,0)/marks.length
+console.log("Average:",average,"\n")
+
+
+// ! 10.Count Occurenece of elements
+const fruits=["apple","banana","apple","orange","banana","apple"];
+
+const c=fruits.reduce((sum,i)=>sum[i]+i,0);
+console.log(c)
