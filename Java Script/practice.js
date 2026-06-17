@@ -39,4 +39,52 @@ const users=[
 ]
 
 const adults=users.filter(users=>users.age>=18);
-console.log(adults);
+// For name only
+// const adults=users.filter(users=>users.age>=18).map(users=>users.name);
+console.log(adults,'\n');
+
+// ! 5. Count Total Character
+
+console.log("5. Count Total Character");
+const word=["hello","world","javascript"]
+
+// ? Using map() and reduce()
+// const total=word.map(words=>words.length).reduce((sum,wordr)=>sum+wordr,0);
+
+// ? using reduce() only
+const total=word.reduce((sum,word)=>sum+word.length,0)
+console.log(total,"\n")
+
+
+// ! 6. Square of Even number
+console.log("6. Square of Even number");
+const nums=[1,2,3,4,5,6,7,8];
+const even_square=nums.filter(nums=> nums%2==0).map(nums=>nums*nums);
+console.log(even_square,"\n")
+
+
+// ! 7.Total salary of Employee
+console.log("7.Total salary of Employee");
+const emp=[
+    {name:"A",salary:30000},
+    {name:"B",salary:50000},
+    {name:"C",salary:40000},
+]
+
+const total_salary=emp.reduce((sum,ts)=> sum+ts.salary,0)
+console.log(total_salary,"\n")
+
+
+// !  8.Names of Passed student
+
+console.log("8.Names of Passed student");
+pass=40;
+const stu=[
+    {name:"A",marks:35},
+    {name:"B",marks:75},
+    {name:"C",marks:45},
+    {name:"D",marks:25}
+]
+
+const passed_stu= stu.filter(stu=>stu.marks>=40).map(stu=>stu.name);
+console.log(passed_stu,"\n")
