@@ -8,11 +8,13 @@ class std1{
         this.name=name;
         this.age=age;
     }
-    // !adding methods
+    // !a dding methods
     study(){
         console.log(`${this.name} is studying js ${this.age} Year old.`);
     }
 }
+
+// ! create object
 let s1=new std1('Rohan',22);
 let s2=new std1('John',25);
 let s3=new std1('Divya',18);
