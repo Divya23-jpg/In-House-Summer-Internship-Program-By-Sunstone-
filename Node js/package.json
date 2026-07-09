@@ -1,0 +1,14 @@
+{
+  "name": "divya",
+  "version": "1.0.0",
+  "description": "This is amazing package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "divya",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
